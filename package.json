@@ -4,13 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "npm install && nodemon app.js",
+    "start": "npm install && node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "syoungee",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
-    "nodemon": "^2.0.19"
+    "express": "^4.18.1"
   }
 }
